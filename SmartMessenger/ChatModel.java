@@ -2,6 +2,7 @@ package SmartMessenger;
 
 public class ChatModel {
 	
+	// Übersetzt die Nachricht und liefert das Ergebnis zurück
 	public static String translate(String message) {
 		String messageTranslated = null;
 		switch(message) {
