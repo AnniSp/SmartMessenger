@@ -1,8 +1,8 @@
 package SmartMessenger;
 
 public class ChatController {
-//	public static String message = ChatView.scanner();
 	
+	// lässt die Nachricht von ChatModel übersetzen und leitet sie wieder an ChatView
 	public static void openTranslation(String message) {
 		String messageTranslated = ChatModel.translate(message);
 		ChatView.showTranslation(messageTranslated);
